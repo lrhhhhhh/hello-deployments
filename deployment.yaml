@@ -16,7 +16,7 @@ spec:
         app: hello
     spec:
       containers:
-        - image: ghcr.io/lrhhhhhh/hello:0.0.1-1c3e458feedc312eb66f515c8b7d1a467ff293b5
+        - image: ghcr.io/lrhhhhhh/hello:0.0.1-1c3e458feedc312eb66f515c8b7d1a467ff293b560
           readinessProbe:
             httpGet:
               path: /
